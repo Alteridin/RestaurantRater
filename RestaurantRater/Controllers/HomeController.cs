@@ -15,14 +15,14 @@ namespace RestaurantRater.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About Restaurant Rater.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Restaurant Rater.";
 
             return View();
         }
